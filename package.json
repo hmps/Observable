@@ -1,0 +1,26 @@
+{
+  "name": "observable",
+  "version": "0.0.1",
+  "directories": {
+    "test": "test"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "test": "babel-tape-runner test/**/*.js | tap-dot"
+  },
+  "author": "Hampus Persson <h@hmps.se> (http://hmps.se/)",
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.5.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-tape-runner": "^2.0.1",
+    "es6-module-loader": "^0.17.11",
+    "tap-dot": "^1.0.4"
+  }
+}
